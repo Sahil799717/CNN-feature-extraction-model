@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
 
-import keras
-from keras.applications import VGG16
-from keras.models import Model
+import tensorflow as tf
+from tensorflow.keras.applications import VGG16
+from tensorflow.keras.models import Model
 from PIL import Image
 
 st.set_page_config(page_title="CNN Feature Visualizer", layout="wide")
